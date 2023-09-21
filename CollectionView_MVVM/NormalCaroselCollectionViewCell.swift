@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 
 class NormalCaroselCollectionViewCell: UICollectionViewCell {
-    static let id = "NomalCarosel"
+    static let id = "NormalCarosel"
     private let mainImage = UIImageView()
     private let titleLabel = UILabel()
     private let subTitleLabel = UILabel()
@@ -19,7 +19,7 @@ class NormalCaroselCollectionViewCell: UICollectionViewCell {
         setUI()
     }
     
-    func setUI() {
+    private func setUI() {
         addSubview(mainImage)
         addSubview(titleLabel)
         addSubview(subTitleLabel)
